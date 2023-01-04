@@ -11,3 +11,5 @@ Built with NodeJS and ExpressJS.
 ```bash
 docker compose up -d
 ```
+
+App will run on port 3000: http://localhost:3000
