@@ -1,0 +1,25 @@
+{
+  "name": "lexicon-core",
+  "version": "1.0.0",
+  "description": "lexicon backend",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/growth-kingdom/lexicon-core.git"
+  },
+  "author": "Obaid Ur-Rahmaan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/growth-kingdom/lexicon-core/issues"
+  },
+  "homepage": "https://github.com/growth-kingdom/lexicon-core#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "socketio": "^1.0.0"
+  }
+}

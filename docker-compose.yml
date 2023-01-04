@@ -1,0 +1,11 @@
+version: "3"
+services:
+  lexicon-core:
+    build: .
+    container_name: lexicon-core
+    restart: always
+    ports:
+      - "3000:3000"
+    volumes:
+      - "/app/node_modules"
+      - ".:/app"
